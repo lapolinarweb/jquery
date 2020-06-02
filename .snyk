@@ -1,0 +1,77 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - promises-aplus-tests > mocha > debug:
+        patched: '2020-06-02T00:55:27.764Z'
+  SNYK-JS-LODASH-567746:
+    - '@babel/core > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-compare-size > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-karma > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - karma > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - karma-ie-launcher > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - '@babel/core > @babel/traverse > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - insight > async > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-eslint > eslint > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - insight > inquirer > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - sinon > @sinonjs/samsam > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-eslint > eslint > inquirer > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - grunt-eslint > eslint > table > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - karma > log4js > streamroller > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - sinon > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+    - karma > log4js > streamroller > async > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2020-06-02T00:55:27.764Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+    - '@babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2020-06-02T00:55:27.764Z'
+  'npm:mime:20170907':
+    - testswarm > request > mime:
+        patched: '2020-06-02T00:55:27.764Z'
+    - testswarm > request > form-data > mime:
+        patched: '2020-06-02T00:55:27.764Z'
+  'npm:minimatch:20160620':
+    - promises-aplus-tests > mocha > glob > minimatch:
+        patched: '2020-06-02T00:55:27.764Z'
+  'npm:ms:20170412':
+    - promises-aplus-tests > mocha > debug > ms:
+        patched: '2020-06-02T00:55:27.764Z'
+  'npm:request:20160119':
+    - testswarm > request:
+        patched: '2020-06-02T00:55:27.764Z'
